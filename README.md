@@ -26,7 +26,7 @@ A local data store, based on HTML5 localstorage, uses MongoDB-like interface.
         }
     });
 
-#####return value
+return value
 
     {
         index : 0
@@ -50,7 +50,7 @@ A local data store, based on HTML5 localstorage, uses MongoDB-like interface.
         }
     };
 
-#####return value
+return value
     
     {
         index : 0
@@ -70,7 +70,7 @@ A local data store, based on HTML5 localstorage, uses MongoDB-like interface.
         gender: 'male'
     };
     
-#####return value
+return value
     
     [
          {
@@ -106,7 +106,7 @@ A local data store, based on HTML5 localstorage, uses MongoDB-like interface.
                 }
         }, true);
         
-#####return value
+return value
 
     [
          {
@@ -142,7 +142,7 @@ A local data store, based on HTML5 localstorage, uses MongoDB-like interface.
                 }
         });
         
-#####return value
+return value
 
      {
         index : 0
@@ -163,7 +163,7 @@ A local data store, based on HTML5 localstorage, uses MongoDB-like interface.
         age : 3
     },true);
     
-#####return value
+return value
     []
 
 ### remove
@@ -171,8 +171,8 @@ A local data store, based on HTML5 localstorage, uses MongoDB-like interface.
     student.remove({
         age : 3
     });
-    
-#####return value
+
+return value
 
     []
 
@@ -180,7 +180,7 @@ A local data store, based on HTML5 localstorage, uses MongoDB-like interface.
 
     student.remove();
     
-#####return value
+return value
 
     []
 
