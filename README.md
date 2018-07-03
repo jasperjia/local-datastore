@@ -1,5 +1,7 @@
 # local-datastore
-A local data store, based on HTML5 localstorage, uses MongoDB-like interface.
+> A local data store, based on HTML5 localstorage, uses MongoDB-like interface.
+> 一个浏览器端数据库，使用HTML5的localstorage持久化数据，使用类似MongoDB风格的接口，适用于本地草稿箱等业务场景。    
+
 ## Usage
 
     const user = new Local('apply');
@@ -12,7 +14,7 @@ A local data store, based on HTML5 localstorage, uses MongoDB-like interface.
         department : ''
     });
 
-###insert
+### insert
 
     student.insert({
         name : 'Jasper',
